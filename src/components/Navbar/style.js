@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 70px;
-  padding: 0 25px;
+  padding: 0 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #fff;
   position: fixed;
   box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+  z-index: 10;
 `
 
 export const Content = styled.div`
@@ -20,7 +21,7 @@ export const Content = styled.div`
     height: 60px;
   }
   div {
-    margin-left: 25px;
+    margin-left: 40px;
     span {
     overflow: hidden;
       text-overflow: ellipsis;
