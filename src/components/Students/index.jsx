@@ -4,7 +4,7 @@ import { Container } from "./style";
 const Students = () => {
   return (
     <Container>
-      <h1>O'quvchilar Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam dolorem esse facilis. A reprehenderit itaque, minus, officiis exercitationem ipsam saepe ad quia provident dicta iste sit deserunt repellendus aliquam laboriosam odio accusantium. Eligendi, magni consectetur! Harum adipisci esse error facere.</h1>
+      <h1>O'quvchilar</h1>
     </Container>
   );
 };

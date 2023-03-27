@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 70px;
   padding: 0 30px;
+  padding-right: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,7 +22,7 @@ export const Content = styled.div`
     height: 60px;
   }
   div {
-    margin-left: 40px;
+    margin-left: 80px;
     span {
     overflow: hidden;
       text-overflow: ellipsis;
@@ -42,7 +43,7 @@ export const MenuWrapper = styled.div`
   border-radius: 5px;
   border: 1px solid #e6e9ec;
   button {
-    width: 150px;
+    width: 100%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;

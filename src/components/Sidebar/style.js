@@ -28,16 +28,12 @@ export const Link = styled(NavLink)`
   svg {
     font-size: 30px;
     transition: all .2s ease;
-    color: #424546;
   }
   span {
     transition: all .2s ease;
     margin-top: 5px;
   }
   :hover svg, :hover span {
-    color: #f18024;
-  }
-  .active svg, .active div {
     color: #f18024;
   }
 `;

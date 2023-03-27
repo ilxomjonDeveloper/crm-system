@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Line, Link } from "./style";
+import { Container, Link } from "./style";
 import { sidebar } from "../../utils/sidebar";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Sidebar = () => {
   return (
@@ -12,7 +11,7 @@ const Sidebar = () => {
             <Link
               key={index}
               to={path}
-              className={({ isActive }) => isActive && "active"}
+              className={`${({ isActive }) => isActive && "active"} sidebarBtn`}
             >
               {icon}
               <span>{title}</span>
